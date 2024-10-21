@@ -1,6 +1,6 @@
 /* 1.0 JP fonts */
 
-.ns {
+.njp {
   font-family: "Noto Serif JP", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -8,7 +8,7 @@
 }
 
 
-.nss {
+.njps {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -18,6 +18,25 @@
 
 .hm {
   font-family: "Hina Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.zkg {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zmg {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ys {
+  font-family: "Yuji Syuku", serif;
   font-weight: 400;
   font-style: normal;
 }
