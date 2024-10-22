@@ -1,3 +1,5 @@
+/* 1.0 template */
+
 function myF1() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -7,4 +9,10 @@ function myF1() {
   }
 }
 
-
+function myF2() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
