@@ -146,13 +146,16 @@ body, html {
   .topnav a.icon {
     float: right;
     display: block;
+
+    .responsive {
+      width: 100%;
+      height: auto;
+      display: block !important;
+    }
+    
   }
 
-  .responsive {
-    width: 100%;
-    height: auto;
-    display: inline;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
