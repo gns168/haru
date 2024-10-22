@@ -147,15 +147,15 @@ body, html {
     float: right;
     display: block;
 
-    .responsive {
-      width: 100%;
-      height: auto;
-      display: block !important;
-    }
+
     
   }
 
-
+  .responsive {
+    width: 100%;
+    height: auto;
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
