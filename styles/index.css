@@ -73,12 +73,7 @@ body, html {
     float: none;
   }
 
-  .responsive {
-    width: 100%;
-    height: auto;
-    display: block !important;
-  }
- 
+
 }
 
 @keyframes fade {
@@ -105,6 +100,7 @@ body, html {
 
 .content {
   padding: 16px;
+  text-align: center;
 }
 
 .sticky {
@@ -174,3 +170,15 @@ body, html {
   }
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+
+.video-mask{
+  width: 100%;
+  border-radius: 25px; 
+  overflow: hidden; 
+}
