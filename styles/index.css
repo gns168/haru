@@ -89,6 +89,15 @@ body, html {
   font-weight: bold;
 }
 
+.logo {
+  width: 25px; 
+  height: 25px; 
+  border-radius:25px; 
+  box-shadow: none;
+
+
+}
+
 /**************************************************/
 
 /* 2.0 Template */
@@ -127,6 +136,8 @@ body, html {
 
 .topnav {
   overflow: hidden;
+  text-shadow: none;
+
 }
 
 .topnav a {
